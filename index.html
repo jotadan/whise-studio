@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Whise Studio</title>
-<script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whise Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="min-h-screen bg-slate-950 text-white">
 
-  <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-xl border-b border-white/5">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <!--NAVBAR-->
+  <nav class="fixed top-0 left-10 right-0 z-50 bg-slate-950/80 backdrop-blur-xl border-b border-white/5">
+    <div class="max-w-7xl mx-3 px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <a class="flex items-center gap-3 group" href="/Home">
-          <img src="logo.png" alt="Whise Studio" class="h-12 w-auto">
+          <img src="assets/LOGO_WHISE_STUDIO.webp" alt="Whise Studio" class="h-12 w-auto">
         </a>
         <div class="flex items-center gap-1">
-          <a class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 bg-blue-600/20 text-blue-400" href="/Home">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+          <a class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 bg-blue-600/20 text-blue-400"
+            href="/Home">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
+              <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+              <path
+                d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            </svg>
             Home
           </a>
-          <a class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 text-slate-400 hover:text-white hover:bg-white/5" href="/Admin">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          <a class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-300 text-slate-400 hover:text-white hover:bg-white/5"
+            href="/Admin">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4">
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+            </svg>
             Admin
           </a>
         </div>
@@ -28,112 +43,222 @@
     </div>
   </nav>
 
-  <main class="pt-16 relative overflow-hidden">
-    <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl"></div>
-    <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-amber-600/10 rounded-full blur-3xl"></div>
-
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20 relative z-10">
+  <main class="pt-16 px-32 relative overflow-hidden text-2xl">
+    <div class="flex justify-center items-center w-full">
 
       <section class="py-10">
+        <div class="flex justify-center items-center pb-16 gap-4 flex-col">
+          <img src="assets/LOGO_WHISE_STUDIO.webp" class="w-40 md:w-60 lg:w-80 h-auto" alt="Centered Image">
+          <p Class="text-slate-400 text-xl"> Vozes que dão vida aos projetos</p>
+        </div>
+
+        <!--SOBRE STUDIO-->
         <div class="bg-slate-900/50 border border-white/10 rounded-2xl p-6 md:p-8">
           <h2 class="text-2xl font-bold text-white mb-6">Sobre o Studio</h2>
-          <p class="leading-relaxed whitespace-pre-line text-slate-300 mb-6">Ola, somos a Whise Studio!</p>
+          <p class="leading-relaxed text-slate-300 mb-6">Ola, somos a Whise Studio!</p>
 
           <h3 class="text-lg font-semibold text-amber-400 mb-2">Quem Somos</h3>
-          <p class="leading-relaxed whitespace-pre-line text-slate-300 mb-6">A Whise Studio é um pequeno Studio de Fandublagens empenhado em dar vida a animações
-            originais e/ou independentes, expressando nossa paixão pela arte através das nossas
+          <p class="leading-relaxed text-slate-300 mb-6">A Whise Studio é um pequeno Studio de Fandublagens empenhado
+            em dar vida a animações originais e/ou independentes, expressando nossa paixão pela arte através das nossas
             vozes com o único propósito de nos divertirmos da mesma forma que deixamos vocês felizes.</p>
 
           <h3 class="text-lg font-semibold text-amber-400 mb-2">Como Surgimos</h3>
-          <p class="leading-relaxed whitespace-pre-line text-slate-300 mb-6">O Studio surgiu em meados de 2024, sendo criado pela a Whise para investir num mundo
+          <p class="leading-relaxed text-slate-300 mb-6">
+            O Studio surgiu em meados de 2024, sendo criado pela a Whise para investir num mundo
             onde ela nunca tinha tentado se aventurar antes, e aos poucos foi tomando forma
             conforme mais pessoas se juntavam a pequena e humilde equipe, onde algo que começou
             sem pretenção alguma, fosse crescendo e ganhando cada vez mais qualidade.</p>
 
           <h3 class="text-lg font-semibold text-amber-400 mb-2">Nossas Metas</h3>
-          <p class="leading-relaxed whitespace-pre-line text-slate-300 mb-6">Queremos, além das animações, também trazer dublagens de jogos de RPG e outros.</p>
+          <p class="leading-relaxed text-slate-300 mb-6">
+            Queremos, além das animações, também trazer
+            dublagens de jogos de RPG e outros.</p>
 
           <hr class="border-white/10 my-6">
 
-          <h3 class="text-sm font-semibold text-slate-500 tracking-wide mb-4">NOSSAS REDES</h3>
+          <h3 class="text-lg font-semibold text-slate-500 tracking-wide mb-4">NOSSAS REDES</h3>
+
           <div class="flex flex-wrap gap-3">
-            <a href="#" class="flex items-center gap-2 px-4 py-2 bg-slate-800/50 hover:bg-slate-700/50 rounded-lg transition-colors text-slate-300 hover:text-white">
-              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.5v-7l6.3 3.5-6.3 3.5Z"/></svg>
-              YouTube
+
+            <a href="https://www.youtube.com/@whisekkj" target="_blank" rel="noopener noreferrer"
+              class="flex items-center gap-2 px-4 py-2 bg-slate-800/50 hover:bg-slate-700/50 rounded-lg transition-colors text-slate-300 hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-youtube w-5 h-5">
+                <path
+                  d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17">
+                </path>
+                <path d="m10 15 5-3-5-3z"></path>
+              </svg>
+              <span class="text-lg">YouTube</span>
             </a>
-            <a href="#" class="flex items-center gap-2 px-4 py-2 bg-slate-800/50 hover:bg-slate-700/50 rounded-lg transition-colors text-slate-300 hover:text-white">Discord</a>
-            <a href="#" class="flex items-center gap-2 px-4 py-2 bg-slate-800/50 hover:bg-slate-700/50 rounded-lg transition-colors text-slate-300 hover:text-white">Instagram</a>
-            <a href="#" class="flex items-center gap-2 px-4 py-2 bg-slate-800/50 hover:bg-slate-700/50 rounded-lg transition-colors text-slate-300 hover:text-white">Twitter/X</a>
+
+            <a href="https://discord.gg/a4B9gJ4huw" target="_blank" rel="noopener noreferrer"
+              class="flex items-center gap-2 px-4 py-2 bg-slate-800/50 hover:bg-slate-700/50 rounded-lg transition-colors text-slate-300 hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-message-circle w-5 h-5">
+                <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+              </svg>
+              <span class="text-lg">Discord</span>
+            </a>
+
+            <a href="https://www.instagram.com/whisekkj/" target="_blank" rel="noopener noreferrer"
+              class="flex items-center gap-2 px-4 py-2 bg-slate-800/50 hover:bg-slate-700/50 rounded-lg transition-colors text-slate-300 hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-instagram w-5 h-5">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+              </svg>
+              <span class="text-lg">Instagram</span>
+            </a>
+
+            <a href="https://x.com/whisekkj" target="_blank" rel="noopener noreferrer"
+              class="flex items-center gap-2 px-4 py-2 bg-slate-800/50 hover:bg-slate-700/50 rounded-lg transition-colors text-slate-300 hover:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-twitter w-5 h-5">
+                <path
+                  d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                </path>
+              </svg>
+              <span class="text-lg">Twitter/X</span>
+            </a>
           </div>
         </div>
-      </section>
+      
+        <!--PROJETOS-->
+        <section class="py-10">
+          <div class="flex items-center gap-3 mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" class="w-7 h-7 text-amber-400">
+              <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18" />
+              <line x1="7" y1="2" x2="7" y2="22" />
+              <line x1="17" y1="2" x2="17" y2="22" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <line x1="2" y1="7" x2="7" y2="7" />
+              <line x1="2" y1="17" x2="7" y2="17" />
+              <line x1="17" y1="17" x2="22" y2="17" />
+              <line x1="17" y1="7" x2="22" y2="7" />
+            </svg>
+            <h2 class="text-2xl font-bold text-white">Nossos Projetos</h2>
+          </div>
 
-      <section class="py-10">
-        <div class="flex items-center gap-3 mb-6">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-7 h-7 text-amber-400"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
-          <h2 class="text-2xl font-bold text-white">Nossos Projetos</h2>
-        </div>
+          <!--UNDERTALE-->
+          <div class="flex flex-wrap gap-6">
+            <div
+              class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-800/80 backdrop-blur-xl border border-white/10 max-w-lg">
+              <div class="relative aspect-[16/10] overflow-hidden">
+                <img src="undertale-aus.png" alt="Undertale Au's" class="w-full h-full object-cover">
+                <div
+                  class="absolute top-3 right-3 inline-flex items-center rounded-md px-2.5 py-0.5 text-xs bg-emerald-500/20 text-emerald-300 border-emerald-500/30 border backdrop-blur-sm font-medium">
+                  Lançado</div>
+              </div>
+              <div class="p-5">
+                <h3 class="text-2xl font-bold text-white group-hover:text-blue-400 transition-colors line-clamp-1">
+                  Undertale
+                  Au's</h3>
+                <p class="text-slate-400 text-lg py-4 line-clamp-2 leading-relaxed mb-3">Dublagens dos nossos universos
+                  alternativos de Undertale!</p>
+                <div class="flex items-center gap-4">
+                  <span class="flex items-center gap-1.5 text-slate-500 text-lg">
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" />
+                      <line x1="16" y1="2" x2="16" y2="6" />
+                      <line x1="8" y1="2" x2="8" y2="6" />
+                      <line x1="3" y1="10" x2="21" y2="10" />
+                    </svg>
+                    2024
+                  </span>
+                  <span class="flex items-center gap-1.5 text-slate-500 text-lg">
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                      <circle cx="9" cy="7" r="4" />
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
+                    5 membros
+                  </span>
+                </div>
+              </div>
+          </div>
 
-        <div class="grid sm:grid-cols-2 gap-6">
-          <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-800/80 backdrop-blur-xl border border-white/10 transition-all duration-500 hover:border-blue-500/30 hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-2 group">
+          <!--LACKDAISY-->
+          <div class="flex flex-wrap gap-6">
+            <div
+              class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-800/80 backdrop-blur-xl border border-white/10 max-w-lg">
+              <div class="relative aspect-[16/10] overflow-hidden">
+                <img src="undertale-aus.png" alt="Undertale Au's" class="w-full h-full object-cover">
+                <div
+                  class="absolute top-3 right-3 inline-flex items-center rounded-md px-2.5 py-0.5 text-xs bg-emerald-500/20 text-emerald-300 border-emerald-500/30 border backdrop-blur-sm font-medium">
+                  Lançado</div>
+              </div>
+              <div class="p-5">
+                <h3 class="text-2xl font-bold text-white group-hover:text-blue-400 transition-colors line-clamp-1">
+                  Undertale
+                  Au's</h3>
+                <p class="text-slate-400 text-lg py-4 line-clamp-2 leading-relaxed mb-3">Dublagens dos nossos universos
+                  alternativos de Undertale!</p>
+                <div class="flex items-center gap-4">
+                  <span class="flex items-center gap-1.5 text-slate-500 text-lg">
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" />
+                      <line x1="16" y1="2" x2="16" y2="6" />
+                      <line x1="8" y1="2" x2="8" y2="6" />
+                      <line x1="3" y1="10" x2="21" y2="10" />
+                    </svg>
+                    2024
+                  </span>
+                  <span class="flex items-center gap-1.5 text-slate-500 text-lg">
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                      <circle cx="9" cy="7" r="4" />
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
+                    5 membros
+                  </span>
+                </div>
+              </div>
+            </div>            
+        </section>
+
+        <!--PARCEIROS-->
+        <section class="py-10">
+          <div class="flex items-center gap-3 mb-6">
+            <svg class="w-7 h-7 text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+            </svg>
+            <h2 class="text-2xl font-bold text-white">Canais Parceiros</h2>
+          </div>
+
+          <div
+            class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-800/80 backdrop-blur-xl border border-white/10 max-w-sm">
             <div class="relative aspect-[16/10] overflow-hidden">
-              <img src="undertale-aus.png" alt="Undertale Au's" class="w-full h-full object-cover">
-              <div class="absolute top-3 right-3 inline-flex items-center rounded-md px-2.5 py-0.5 text-xs bg-emerald-500/20 text-emerald-300 border-emerald-500/30 border backdrop-blur-sm font-medium">Lançado</div>
+              <img src="parceiro.png" alt="StellZera" class="w-full h-full object-cover">
             </div>
+
             <div class="p-5">
-              <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors line-clamp-1">Undertale Au's</h3>
-              <p class="text-slate-400 text-sm line-clamp-2 leading-relaxed mb-3">Dublagens dos nossos universos alternativos de Undertale!</p>
-              <div class="flex items-center gap-4">
-                <span class="flex items-center gap-1.5 text-slate-500 text-sm">
-                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-                  2024
-                </span>
-                <span class="flex items-center gap-1.5 text-slate-500 text-sm">
-                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                  5 membros
-                </span>
+              <h3 class="text-xl font-bold text-white mb-2">StellZera</h3>
+              <p class="text-slate-400 text-lg leading-relaxed mb-3">Um dos nossos principais parceiros, cantor,
+                dublador,
+                compositor, editor, mix/master e quem...</p>
+              <div class="flex gap-2">
+                <a href="#" class="p-2 bg-slate-800/50 rounded-lg text-slate-300 hover:text-white"><svg class="w-4 h-4"
+                    viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.5v-7l6.3 3.5-6.3 3.5Z" />
+                  </svg></a>
+                <a href="#" class="p-2 bg-slate-800/50 rounded-lg text-slate-300 hover:text-white">IG</a>
+                <a href="#" class="p-2 bg-slate-800/50 rounded-lg text-slate-300 hover:text-white">X</a>
               </div>
             </div>
           </div>
-
-          <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-800/80 backdrop-blur-xl border border-white/10 transition-all duration-500 hover:border-blue-500/30 hover:shadow-2xl hover:shadow-blue-500/10 hover:-translate-y-2 group">
-            <div class="relative aspect-[16/10] overflow-hidden">
-              <img src="lackdaisy.png" alt="Lackdaisy" class="w-full h-full object-cover">
-              <div class="absolute top-3 right-3 inline-flex items-center rounded-md px-2.5 py-0.5 text-xs bg-emerald-500/20 text-emerald-300 border-emerald-500/30 border backdrop-blur-sm font-medium">Lançado</div>
-            </div>
-            <div class="p-5">
-              <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors line-clamp-1">Lackdaisy</h3>
-              <div class="flex items-center gap-4 mt-3">
-                <span class="flex items-center gap-1.5 text-slate-500 text-sm">2025</span>
-                <span class="flex items-center gap-1.5 text-slate-500 text-sm">16 membros</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
       </section>
-
-      <section class="py-10">
-        <div class="flex items-center gap-3 mb-6">
-          <svg class="w-7 h-7 text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
-          <h2 class="text-2xl font-bold text-white">Canais Parceiros</h2>
-        </div>
-
-        <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-800/80 backdrop-blur-xl border border-white/10 max-w-sm">
-          <div class="relative aspect-[16/10] overflow-hidden">
-            <img src="parceiro.png" alt="StellZera" class="w-full h-full object-cover">
-          </div>
-          <div class="p-5">
-            <h3 class="text-xl font-bold text-white mb-2">StellZera</h3>
-            <p class="text-slate-400 text-sm leading-relaxed mb-3">Um dos nossos principais parceiros, cantor, dublador, compositor, editor, mix/master e quem...</p>
-            <div class="flex gap-2">
-              <a href="#" class="p-2 bg-slate-800/50 rounded-lg text-slate-300 hover:text-white"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.5v-7l6.3 3.5-6.3 3.5Z"/></svg></a>
-              <a href="#" class="p-2 bg-slate-800/50 rounded-lg text-slate-300 hover:text-white">IG</a>
-              <a href="#" class="p-2 bg-slate-800/50 rounded-lg text-slate-300 hover:text-white">X</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
     </div>
   </main>
 
@@ -142,4 +267,5 @@
   </footer>
 
 </body>
+
 </html>
